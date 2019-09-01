@@ -10,7 +10,7 @@ FROM golang:1.9-alpine
 
 ENV FFMPEG_VERSION=3.0.2
 
-WORKDIR /tmp/ffmpeg
+WORKDIR /tmp/annie
 
 # build ffmepg
 RUN apk add --update build-base curl nasm tar bzip2 \
